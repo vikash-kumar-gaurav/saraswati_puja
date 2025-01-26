@@ -1,0 +1,57 @@
+@import "tailwindcss";
+
+
+body {
+  padding: 0;;
+  margin: 0;
+  box-sizing: border-box;
+  background-color: black;
+  width: screen;
+}
+
+.tag {
+  font-family: "Shadows Into Light", serif;
+  font-weight: 600;
+  font-style:normal;
+  
+  border-radius: 5px;
+  
+}
+
+#navButton {
+  font-family: "Pacifico", serif;
+  font-weight: 300;
+  font-style: normal;
+  
+}
+
+#navButton {
+  position: relative;
+  overflow: hidden;
+  border: none;
+  
+  
+  cursor: pointer;
+}
+
+#navButton::before {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 0%;
+  background:linear-gradient(-120deg, #14acf2, #f04494, #0ac578);
+  height: 3px;
+  
+  transition: all 0.3s ease-in-out;
+}
+
+#navButton:hover::before {
+  
+  width:100%; 
+
+}
+
+
+
+
