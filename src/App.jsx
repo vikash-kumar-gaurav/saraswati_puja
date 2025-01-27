@@ -45,7 +45,7 @@ function App() {
      
 
     </div>
-    {/* <Vision2047/> */}
+    <Vision2047 ismobile={ismobile}/>
     <Gallery/>
     
    </>

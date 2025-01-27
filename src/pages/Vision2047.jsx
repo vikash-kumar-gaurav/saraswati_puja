@@ -2,7 +2,7 @@ import React,{useState} from 'react'
 import { Sustainability,Innovation, Education, SocialWelfare } from '../assets/fileSuplier'
 import Vision2047Card from '../Components/vision2047Card'
 
-const Vision2047 = () => {
+const Vision2047 = ({ismobile}) => {
   const [currentCategery, setcurrentCategery] = useState('Innovation')
   const checkCurrentCategory = () => {
     const categories ={
@@ -35,6 +35,7 @@ const Vision2047 = () => {
     checkCurrentCategory().map((item,index) => {
       return (
         <Vision2047Card 
+         ismobile
          url1={item.url1}
          url2={item.url2}
          title1={item.title1}
