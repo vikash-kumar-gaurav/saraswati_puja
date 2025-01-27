@@ -5,7 +5,7 @@ import clipData from './Components/LottiData';
 import SignificanceCard from './Components/SignificanceCard';
 import gsap from 'gsap';
 
-const Hero2 = () => {
+const Hero2 = ({ismobile}) => {
   const [position, setPosition] = useState({ x: 0, y: 0 });
   const [cursor, setCursor] = useState(false);
 
@@ -20,7 +20,7 @@ const Hero2 = () => {
       onMouseMove={handleMouse}
       onMouseEnter={() => setCursor(true)}
       onMouseLeave={() => setCursor(false)}
-      className="min-h-screen  pt-10 relative bg-gradient-to-b from-[#FFF] to-[#FFD700] text-gray-800 flex flex-wrap  items-center gap-3 md:gap-1 px-30 pb-10"
+      className="min-h-screen  pt-10 relative bg-gradient-to-b from-[#FFF] to-[#FFD700] text-gray-800 flex flex-wrap  items-center gap-3 md:gap-1 px-10 md:px-30 pb-10"
     >
       {/* Custom cursor */}
       <div

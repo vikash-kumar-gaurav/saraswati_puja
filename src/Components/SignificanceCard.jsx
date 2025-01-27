@@ -2,7 +2,7 @@ import React from "react";
 const SignificanceCard = ({ img, title, desc, index }) => {
   return (
     <div
-      className="relative w-[300px] h-[500px] rounded-2xl border-[1px] border-gray-200 bg-gradient-to-b from-blue-50 via-white to-yellow-50 shadow-md hover:shadow-xl transform transition-all duration-300"
+      className="relative w-[400px]  h-[500px] rounded-2xl border-[1px] border-gray-200 bg-gradient-to-b from-blue-50 via-white to-yellow-50 shadow-md hover:shadow-xl transform transition-all duration-300"
       key={index}
     >
       {/* Decorative Lighting Effect */}
