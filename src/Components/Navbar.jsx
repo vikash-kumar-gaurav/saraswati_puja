@@ -16,7 +16,7 @@ const Navbar = () => {
         <div className='hidden md:flex flex-co justify-end items-center gap-10 '>
            <div className='flex gap-10 '>
            <a className='tag' href="/home">Home</a>
-            <a className='tag' href="/about">Gallery</a>
+            <a className='tag' href="/.gallery">Gallery</a>
             <a className='tag' href="/career">Contact_Us</a>
             <a className='tag' href="/front">Credit</a>
            </div>

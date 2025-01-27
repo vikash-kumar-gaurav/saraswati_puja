@@ -9,6 +9,10 @@ import art_img11 from './art_work/11.jpg'
 import art_img12 from './art_work/12.jpg'
 import art_img13 from './art_work/13.jpg'
 import art_img14 from './art_work/14.jpg'
+import art_img15 from './art_work/15.jpg'
+import art_img16 from './art_work/16.jpg'
+import art_img17 from './art_work/17.jpg'
+import art_img18 from './art_work/18.jpg'
 
 export const Art_work = [
     { src: art_img3 },
@@ -20,7 +24,12 @@ export const Art_work = [
     { src: art_img11 },
     { src: art_img12 },
     { src: art_img13 },
-    { src: art_img14 }
+    { src: art_img14 },
+    { src: art_img15 },
+    { src: art_img16 },
+    { src: art_img17 },
+    { src: art_img18 }
+
 ]
 
 
@@ -29,13 +38,26 @@ import Cleaning_img2 from './cleaning/2.jpg'
 import Cleaning_img3 from './cleaning/3.jpg'
 import Cleaning_img4 from './cleaning/4.jpg'
 import Cleaning_img5 from './cleaning/5.jpg'
+import Cleaning_img6 from './cleaning/6.jpg'
+import Cleaning_img8 from './cleaning/8.jpg'
+import Cleaning_img10 from './cleaning/10.jpg'
+import Cleaning_img11 from './cleaning/11.jpg'
+import Cleaning_img12 from './cleaning/12.jpg'
+import Cleaning_img9 from './cleaning/9.jpg'
+
 
 export const Cleaning = [
     { src: Cleaning_img1 },
     { src: Cleaning_img2 },
     { src: Cleaning_img3 },
     { src: Cleaning_img4 },
-    { src: Cleaning_img5 }
+    { src: Cleaning_img5 },
+    { src: Cleaning_img9 },
+    { src: Cleaning_img8 },
+    { src: Cleaning_img6 },
+    { src: Cleaning_img11 },
+    { src: Cleaning_img10 },
+    { src: Cleaning_img12 },
 ]
 
 import puja_img1 from './saraswati puja img/4.jpg'
@@ -44,6 +66,10 @@ import puja_img3 from './saraswati puja img/7.jpg'
 import puja_img4 from './saraswati puja img/8.jpg'
 import puja_img5 from './saraswati puja img/9.jpg'
 import puja_img6 from './saraswati puja img/12.jpg'
+import puja_img13 from './saraswati puja img/13.jpg'
+import puja_img14 from './saraswati puja img/14.jpg'
+import puja_img15 from './saraswati puja img/15.jpg'
+
 
 export const Puja = [
     {src:puja_img1},
@@ -52,6 +78,9 @@ export const Puja = [
     {src:puja_img4},
     {src:puja_img5},
     {src:puja_img6},
+    {src:puja_img15},
+    {src:puja_img14},
+    {src:puja_img13}
 ]
 
 import social_img1 from './social_work/1.jpg'
@@ -59,6 +88,12 @@ import social_img2 from './social_work/2.jpg'
 import social_img3 from './social_work/3.jpg'
 import social_img4 from './social_work/4.jpg'
 import social_img5 from './social_work/5.jpg'
+import social_img6 from './social_work/6.jpg'
+import social_img7 from './social_work/7.jpg'
+import social_img8 from './social_work/8.jpg'
+import social_img9 from './social_work/9.jpg'
+import social_img12 from './social_work/12.jpg'
+
 
 export const Social = [
     {src:social_img1},
@@ -66,6 +101,11 @@ export const Social = [
     {src:social_img3},
     {src:social_img4},
     {src:social_img5},
+    {src:social_img6},
+    {src:social_img7},
+    {src:social_img8},
+    {src:social_img9},
+    {src:social_img12},
 ]
 
 
@@ -162,4 +202,50 @@ export const SocialWelfare = [
         desc2: "Men’s rights in India often face neglect, particularly in issues like divorce, domestic violence, and false accusations. By 2047, there could be a more balanced approach to gender laws, where both men and women are treated equally under the law, with a fair and just legal system that addresses the issues faced by men."
     }
 ]
+
+ export const Reviews = [
+    {
+      profilePicture: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTWt1Xc6M_vNYzEqJwyjSRsNkXX0m2t4-e4TQ&s",
+      name: "Ravi",
+      working: "Wipro",
+      batch: "2023 - 26",
+      desc: "The college provided me with great opportunities to grow, both personally and professionally."
+    },
+    {
+      profilePicture: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQGJl5oPt-79aG-TcusgMcYD6Nh8HPPcEuwhQ&s",
+      name: "Anjali",
+      working: "TCS",
+      batch: "2022 - 25",
+      desc: "I thoroughly enjoyed all the cultural and technical fests, which added to my learning experience."
+    },
+    {
+      profilePicture: "",
+      name: "Rahul",
+      working: "Infosys",
+      batch: "2021 - 24",
+      desc: "The supportive faculty and engaging extracurricular activities made my journey memorable."
+    },
+    {
+      profilePicture: "",
+      name: "Priya",
+      working: "Cognizant",
+      batch: "2020 - 23",
+      desc: "From academics to sports, the environment helped me develop skills for my career and beyond."
+    },
+    {
+      profilePicture: "",
+      name: "Aman",
+      working: "HCL",
+      batch: "2024 - 27",
+      desc: "The hands-on training and practical knowledge I gained were truly valuable for my placement."
+    },
+    {
+      profilePicture: "",
+      name: "Simran",
+      working: "Capgemini",
+      batch: "2025 - 28",
+      desc: "The college events and workshops provided me with exposure to real-world challenges and solutions."
+    }
+  ];
+  
 

@@ -7,6 +7,8 @@ import Navbar from './Components/Navbar'
 import Hero2 from './Hero2'
 import Gallery from './pages/gallery'
 import Vision2047 from './pages/Vision2047'
+import Testenominals from './pages/Testenominals'
+import Footer from './pages/Footer'
 
 
 
@@ -47,6 +49,8 @@ function App() {
     </div>
     <Vision2047 ismobile={ismobile}/>
     <Gallery/>
+    <Testenominals/>
+    <Footer/>
     
    </>
   )

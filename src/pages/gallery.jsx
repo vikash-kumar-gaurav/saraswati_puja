@@ -28,12 +28,12 @@ const Gallery = () => {
   };
 
   return (
-    <div className="min-h-screen w-full bg-gradient-to-r from-blue-400 via-purple-300 to-pink-300 text-gray-900"> {/* Colorful background */}
+    <div className="gallery min-h-screen w-full bg-gradient-to-r from-blue-400 via-purple-300 to-pink-300 text-gray-900"> {/* Colorful background */}
       {/* Gallery Heading */}
       <div className="text-center py-8">
-        {/* <h1 className="text-5xl font-extrabold tracking-wide text-gray-800 drop-shadow-lg">
+        <h1 className=" text-3xl md:text-5xl font-extrabold tracking-wide text-gray-800 drop-shadow-lg">
           College Gallery
-        </h1> */}
+        </h1>
       </div>
 
       {/* Category Buttons */}
