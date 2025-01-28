@@ -10,13 +10,16 @@ body {
 }
 
 .tag {
-  font-family: "Shadows Into Light", serif;
+  font-family: "Pacifico Static", serif;
   font-weight: 600;
   font-style:normal;
   
   border-radius: 5px;
   
 }
+/* Shadows Into Light
+Static */
+
 
 #navButton {
   font-family: "Pacifico", serif;
@@ -51,6 +54,24 @@ body {
   width:100%; 
 
 }
+
+#Notification{
+  /* background: linear-gradient( -120deg, #006b9580, #4f5b6560, #b3812a70, #a01a1f80); */
+  
+
+}
+
+#para2  {
+  color: orange;
+  font-family: 'Pacifico', 'Arial Narrow', Arial, sans-serif;
+}
+
+#para1 {
+ color: rgb(108, 10, 10);
+ font-size:x-large;
+ font-family: 'Kablammo';
+}
+
 
 
 

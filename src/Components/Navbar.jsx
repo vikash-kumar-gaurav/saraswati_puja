@@ -15,8 +15,8 @@ const Navbar = () => {
         <div><img src={cimageLogo} style={{height:'50px'}} alt="" /></div>
         <div className='hidden md:flex flex-co justify-end items-center gap-10 '>
            <div className='flex gap-10 '>
-           <a className='tag' href="/home">Home</a>
-            <a className='tag' href="/.gallery">Gallery</a>
+           <a className='tag' href="#home">Home</a>
+            <a className='tag' href="#gallery">Gallery</a>
             <a className='tag' href="/career">Contact_Us</a>
             <a className='tag' href="/front">Credit</a>
            </div>
@@ -34,8 +34,8 @@ const Navbar = () => {
         Sidebar && 
         <div className='absolute bg-[#f6c8962c] w-64 h-auto right-0 rounded-b-md flex items-center justify-center gap-10'>
             <div className=' justify-end items-center gap-4 flex-col flex '>
-            <a className='tag' href="/home">Home</a>
-            <a className='tag' href="/about">Gallery</a>
+            <a className='tag' href="#home">Home</a>
+            <a className='tag' href="#gallery">Gallery</a>
             <a className='tag' href="/career">Contact_Us</a>
             <a className='tag' href="/front">Credit</a>
             </div>

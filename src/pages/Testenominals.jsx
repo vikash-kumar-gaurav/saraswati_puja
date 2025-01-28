@@ -4,7 +4,7 @@ import TestenomialCards from '../Components/TestenomialCards'
 
 const Testenominals = () => {
   return (
-    <div className='w-full mx-auto bg-linear-120 flex md:flex-row flex-row flex-wrap items-center justify-center gap-4  from-[#ffa000] to-[#ff0d00]'>
+    <div className='w-full mx-auto bg-linear-120 from-[#ffa000] to-[#ff0d00]  flex md:flex-row flex-row flex-wrap items-center justify-center gap-4  '>
         {
             Reviews.map((item, index) => {
                 return (
