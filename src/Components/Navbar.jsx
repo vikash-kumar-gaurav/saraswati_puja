@@ -4,7 +4,7 @@ import cimageLogo from '/cimageLogo.png'
 import { RiMenu2Fill } from "react-icons/ri";
 
 
-const Navbar = () => {
+const Navbar = ({ismobile}) => {
     const [Sidebar, setSidebar] = useState(false)
     const handleSideBar = () => {
         setSidebar((prev) => !prev)
@@ -18,7 +18,7 @@ const Navbar = () => {
            <a className='tag' href="#home">Home</a>
             <a className='tag' href="#gallery">Gallery</a>
             <a className='tag' href="/career">Contact_Us</a>
-            <a className='tag' href="/front">Credit</a>
+            <a className='tag' target='_blank' href="https://vikash-portfolio-i.netlify.app">Credit</a>
            </div>
            
         </div>
@@ -27,22 +27,23 @@ const Navbar = () => {
         </div>
     </div>
         <div className='hidden md:flex absolute right-19 top-19 gap-1.5 justify-between items-center '>
-                <button id='navButton' className='bg-gradient-to-b from-[#FF9933] via-white to-[#138808] text-[#000080] rounded-3xl px-4 py-2'>Vision 2047</button>
-                <button id='navButton' className='bg-yellow-400 text-white rounded-3xl px-4 py-2'>Innovations</button>
+        <a href="#visionHeading"><button id='navButton' className='bg-gradient-to-b from-[#FF9933] via-white to-[#138808] text-[#000080] rounded-3xl px-4 py-2'>Vision 2047</button></a>
+
+        <a href="#visionHeading"><button id='navButton ' className='bg-yellow-400 text-white rounded-3xl px-4 py-2'>Innovations</button></a>
         </div>
     {
-        Sidebar && 
+        Sidebar && ismobile &&
         <div className='absolute bg-[#f6c8962c] w-64 h-auto right-0 rounded-b-md flex items-center justify-center gap-10'>
             <div className=' justify-end items-center gap-4 flex-col flex '>
             <a className='tag' href="#home">Home</a>
             <a className='tag' href="#gallery">Gallery</a>
             <a className='tag' href="/career">Contact_Us</a>
-            <a className='tag' href="/front">Credit</a>
+            <a className='tag' target='_blank' href="https://vikash-portfolio-i.netlify.app">Credit</a>
             </div>
             <div className='flex flex-col gap-2.5'>
-            <button id='navButton' className='bg-gradient-to-b from-[#FF9933] via-white to-[#138808] text-[#000080] rounded-3xl px-4 py-2'>Vision 2047</button>
+            <a href="#visionHeading"><button id='navButton' className='bg-gradient-to-b from-[#FF9933] via-white to-[#138808] text-[#000080] rounded-3xl px-4 py-2'>Vision 2047</button></a>
 
-            <button id='navButton' className='bg-yellow-400 text-white rounded-3xl px-4 py-2'>Innovations</button>
+            <a href="#visionHeading"><button id='navButton ' className='bg-yellow-400 text-white rounded-3xl px-4 py-2'>Innovations</button></a>
             </div>
             
         </div>

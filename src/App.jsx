@@ -37,7 +37,7 @@ function App() {
   return (
    <>
     <div className='relative hero_section w-auto h-auto bg-[#B5A79C]   '>
-      <Navbar />
+      <Navbar  ismobile={ismobile}/>
       
       <div id='home' className='h-[85%] w-full  hidden md:flex items-end justify-center outline-none'>
         <img src={saraswatiImg} style={{height:'750px',width:'1880px'}}  alt="" />
@@ -51,7 +51,7 @@ function App() {
     </div>
     <Vision2047 ismobile={ismobile}/>
     <Gallery/>
-    <Testenominals/>
+    {/* <Testenominals/> */}
     <Footer/>
     <Notification ismobile={ismobile}/>
    

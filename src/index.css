@@ -10,7 +10,7 @@ body {
 }
 
 .tag {
-  font-family: "Pacifico Static", serif;
+  font-family: "Pacifico", serif;
   font-weight: 600;
   font-style:normal;
   
@@ -55,11 +55,7 @@ Static */
 
 }
 
-#Notification{
-  /* background: linear-gradient( -120deg, #006b9580, #4f5b6560, #b3812a70, #a01a1f80); */
-  
 
-}
 
 #para2  {
   color: orange;
@@ -71,6 +67,28 @@ Static */
  font-size:x-large;
  font-family: 'Kablammo';
 }
+#timer{
+  
+  font-family: 'Pacifico', 'Arial Narrow', Arial, sans-serif;
+
+  color: #C4A601;
+  
+  overflow: hidden;
+  cursor: pointer;
+  
+}
+#visionpara{
+  font-family:'Pacifico', 'Arial Narrow', Arial, sans-serif ;
+  color: black;
+}
+
+#visionHeading{
+  margin-top:12px;
+  font-family: 'Kablammo';
+}
+
+
+
 
 
 

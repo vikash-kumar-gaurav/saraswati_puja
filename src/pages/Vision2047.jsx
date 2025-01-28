@@ -36,8 +36,8 @@ useEffect(() => {
       <button id='navButton' className='bg-yellow-400 text-white rounded-3xl px-4 py-2' onClick={() => setcurrentCategery('Education')}>Education</button>
       <button id='navButton' className='bg-white text-black rounded-3xl px-4 py-2' onClick={() => setcurrentCategery('SocialWelfare')}>Social Walfare</button>
     </div>
-    <h1 className="text-5xl font-bold tracking-wide">Vision 2047</h1>
-    <p className="mt-4 text-xl text-gray-300" ref={headerRef}>
+    <h1 id='visionHeading' className="text-5xl font-bold tracking-wide">Vision 2047</h1>
+    <p id='visionpara' className="mt-4 text-xl text-white" ref={headerRef}>
       Empowering progress, innovation, and sustainability for a brighter tomorrow.
     </p>
   </div>
