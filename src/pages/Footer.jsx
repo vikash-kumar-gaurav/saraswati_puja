@@ -1,5 +1,6 @@
 import React from 'react';
-import { FaFacebook, FaTwitter, FaInstagram, FaLinkedin, FaYoutube } from 'react-icons/fa';
+import { FaFacebook,  FaInstagram, FaLinkedin, FaYoutube } from 'react-icons/fa';
+import { FaSquareXTwitter } from "react-icons/fa6";
 import img1 from '/cimageLogo.png'
 
 const Footer = () => {
@@ -10,11 +11,16 @@ const Footer = () => {
         <div className="flex flex-col md:flex-row justify-between items-center">
           {/* Logo Section */}
           <div className="mb-4 md:mb-0">
-            <img
+            <a
+            target='_blank'
+            rel='noopener noreferrer'
+             href="https://www.cimage.in">
+              <img
               src={img1} 
               alt="Cimage Logo"
               className="w-32 h-auto"
             />
+             </a>
           </div>
           {/* Social Media Links */}
           <div className="flex gap-6">
@@ -27,12 +33,12 @@ const Footer = () => {
               <FaFacebook size={24} />
             </a>
             <a
-              href="https://x.com/cimagecollege/status/1815641918337880127?mx=2"
+              href="https://x.com/cimagecollege"
               target="_blank"
               rel="noopener noreferrer"
-              className="hover:text-sky-400 transition duration-300"
+              className=" text-black bg-white hover:text-white hover:bg-black transition duration-300"
             >
-              <FaTwitter size={24} />
+              <FaSquareXTwitter size={24} />
             </a>
             <a
               href="https://www.instagram.com/cimagecollege/"
