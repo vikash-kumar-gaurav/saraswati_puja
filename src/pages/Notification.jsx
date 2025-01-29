@@ -3,7 +3,7 @@ import '../index.css'
 import CountdownTimer from './countdown'
 import img1 from '/cele.png'
 import img2 from '/cele_desktop.png'
-import gsap from 'gsap'
+
 import { DotLottieReact } from '@lottiefiles/dotlottie-react';
 import { ImCross } from "react-icons/im";
 

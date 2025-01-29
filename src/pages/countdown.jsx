@@ -39,11 +39,11 @@ const CountdownTimer = ({ targetDate }) => {
   }, [targetDate]);
 
   if (!timeLeft) {
-    return <p>The countdown is over!</p>;
+    return <p>The Wait is over!</p>;
   }
 
   return (
-    <div id="timer" className="flex justify-center text-center ">
+    <div id="timer" className="flex justify-center text-center text-black md:text-[#C4A601] ">
       <div className="mx-2">
         <p className="text-xl font-bold">{timeLeft.days}</p>
         <p className="text-sm">Days</p>
